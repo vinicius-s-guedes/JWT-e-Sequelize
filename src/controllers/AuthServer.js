@@ -20,7 +20,6 @@ module.exports = {
     async login(req, res) { //Faz o login
       console.log(req);
       const {email} = req.body;
-      // const passwordCrypt = await bcrypt.hash(password, 10);
       const user = await User.findOne({where:{ email}});
       if(!user){
         return res.status(400).json({'error':'Cannot find user'})
