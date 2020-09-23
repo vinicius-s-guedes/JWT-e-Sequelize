@@ -1,0 +1,46 @@
+{
+  "schemas": [
+    "urn:ietf:params:scim:api:messages:2.0:ListResponse"
+  ],
+  "totalResults": 3,
+  "itemsPerPage": 3,
+  "startIndex": 1,
+  "Resources": [
+    {
+      "id": "urn:ietf:params:scim:schemas:core:2.0:User",
+      "name": "User",
+      "description": "User Schema",
+      "attributes": [
+        "..."
+      ],
+      "meta": {
+        "resourceType": "Schema",
+        "location": "https://wdc.test.host/scim/v2/Schemas/urn:ietf:params:scim:schemas:core:2.0:User"
+      }
+    },
+    {
+      "id": "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User",
+      "name": "Enterprise User",
+      "description": "Enterprise User Schema",
+      "attributes": [
+        "..."
+      ],
+      "meta": {
+        "resourceType": "Schema",
+        "location": "https://wdc.test.host/scim/v2/Schemas/urn:ietf:params:scim:schemas:extension:enterprise:2.0:User"
+      }
+    },
+    {
+      "id": "urn:ietf:params:scim:schemas:core:2.0:Group",
+      "name": "Group",
+      "description": "Group Schema",
+      "attributes": [
+        "..."
+      ],
+      "meta": {
+        "resourceType": "Schema",
+        "location": "https://wdc.test.host/scim/v2/Schemas/urn:ietf:params:scim:schemas:core:2.0:Group"
+      }
+    }
+  ]
+}
