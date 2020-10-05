@@ -1,0 +1,31 @@
+[
+   {
+      "id":"urn:ietf:params:scim:schemas:core:2.0:User",
+      "name":"User",
+      "description":"User Account",
+      "attributes":[
+         {
+            "name":"id",
+            "type":"integer",
+            "multiValued":false,
+            "description":"identifier id",
+            "required":true,
+            "caseExact":false,
+            "mutability":"readWrite",
+            "returned":"default",
+            "uniqueness":"server"
+         },
+         {
+            "name":"userName",
+            "type":"string",
+            "multiValued":false,
+            "description":"Unique identifier for the User, typically used by the user to directly authenticate to the service provider. Each User MUST include a non-empty userName value. This identifier MUST be unique across the service provider’s entire set of Users. REQUIRED.",
+            "required":true,
+            "caseExact":false,
+            "mutability":"readWrite",
+            "returned":"default",
+            "uniqueness":"none"
+         }
+      ]
+   }
+]
